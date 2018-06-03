@@ -7,7 +7,7 @@ Food order app (Ionic 3 / Angular 4)
 - install dependencies `npm install`
 
 # Lauch project
-- `ionic serve -l`
+- `ionic serve`
 - use ionic emulator on web browser
 
 # Emulate project on Android
