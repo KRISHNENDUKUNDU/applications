@@ -4,7 +4,8 @@
 Food order app (Ionic 3 / Angular 4)
 
 # Installation
-Download nodejs LTS recommended version from this link for WINDOWS platform - https://nodejs.org/en/
+- Download nodejs LTS recommended version from this link for WINDOWS platform - https://nodejs.org/en/
+- install nodjs
 
 # STARTUP
 - extract the zip file
