@@ -12,6 +12,3 @@ Download nodejs from this link for WINDOWS platform - https://nodejs.org/en/
 - `ionic serve`
 - use ionic emulator on web browser
 
-# Emulate project on Android
-- install android emulator API 25(max) via Android Studio
-- `ionic cordova android run`
