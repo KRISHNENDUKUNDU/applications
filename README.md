@@ -7,7 +7,7 @@ Food order app (Ionic 3 / Angular 4)
 Download nodejs LTS recommended version from this link for WINDOWS platform - https://nodejs.org/en/
 
 # STARTUP
-- go to the project folder from command propmt
+- go to the project folder from command prompt
 - install ionic `npm install -g ionic`
 - install dependencies `npm install`
 
