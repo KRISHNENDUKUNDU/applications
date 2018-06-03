@@ -3,8 +3,7 @@ Food order app (Ionic 3 / Angular 4)
 
 
 # STARTUP
-- install ionic `npm install -g ionic@latest`
-- install cordova `npm install -g cordova`
+- install ionic `npm install -g ionic`
 - install dependencies `npm install`
 
 # Lauch project
