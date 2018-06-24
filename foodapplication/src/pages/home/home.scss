@@ -1,0 +1,30 @@
+page-home {
+    .body {
+        background-color: #72b;
+    }
+    .button {
+        margin-top: 50px;
+        background-color: greenyellow;
+        color: darkblue;
+        box-shadow: 5px 10px #6b0a0a;
+        
+    }
+    .container {
+        margin-top: 140px;
+        background-color: #72b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .header {
+        text-align: center;
+        align-items: center
+    }
+}
