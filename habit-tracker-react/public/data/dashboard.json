@@ -1,0 +1,56 @@
+{
+  "title": "DAILY HABIT TRACKER",
+  "subtitle": "Track your habits. Build your future.",
+  "currentMonth": "October",
+  "currentYear": 2025,
+  "monthlyProgress": {
+    "percentage": 62,
+    "completed": 383,
+    "goal": 614,
+    "left": 231
+  },
+  "motivationalText": "Keep it up! 💪",
+  "motivationalSubtext": "Consistency is the key to building great habits.",
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "label": "WEEK 1",
+      "color": "#a78bfa",
+      "completed": 31,
+      "total": 77,
+      "progressPercentage": 40
+    },
+    {
+      "weekNumber": 2,
+      "label": "WEEK 2",
+      "color": "#60a5fa",
+      "completed": 33,
+      "total": 77,
+      "progressPercentage": 43
+    },
+    {
+      "weekNumber": 3,
+      "label": "WEEK 3",
+      "color": "#f472b6",
+      "completed": 40,
+      "total": 77,
+      "progressPercentage": 52
+    },
+    {
+      "weekNumber": 4,
+      "label": "WEEK 4",
+      "color": "#34d399",
+      "completed": 37,
+      "total": 77,
+      "progressPercentage": 48
+    },
+    {
+      "weekNumber": 5,
+      "label": "WEEK 5",
+      "color": "#fbbf24",
+      "completed": 5,
+      "total": 33,
+      "progressPercentage": 15
+    }
+  ]
+}

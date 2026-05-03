@@ -1,0 +1,154 @@
+{
+  "habits": [
+    {
+      "id": 1,
+      "name": "Wake up before 7 AM",
+      "rank": 1,
+      "completedDays": 18,
+      "leftDays": 13,
+      "progressPercentage": 58,
+      "dailyStatus": {
+        "week1": [1, 1, 1, 1, 0, 1, 1],
+        "week2": [1, 1, 1, 1, 1, 1, 1],
+        "week3": [1, 1, 1, 1, 1, 1, 1],
+        "week4": [1, 1, 1, 1, 1, 1, 1],
+        "week5": [1, 0, 1]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Study 2 hours",
+      "rank": 2,
+      "completedDays": 14,
+      "leftDays": 17,
+      "progressPercentage": 45,
+      "dailyStatus": {
+        "week1": [1, 1, 0, 1, 0, 1, 1],
+        "week2": [1, 1, 1, 0, 1, 1, 1],
+        "week3": [1, 0, 1, 1, 0, 1, 1],
+        "week4": [0, 1, 1, 1, 1, 1, 1],
+        "week5": [1, 0, 1]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Attend classes on time",
+      "rank": 3,
+      "completedDays": 21,
+      "leftDays": 10,
+      "progressPercentage": 68,
+      "dailyStatus": {
+        "week1": [1, 1, 1, 1, 1, 1, 0],
+        "week2": [1, 1, 1, 1, 1, 1, 1],
+        "week3": [1, 1, 1, 1, 1, 1, 0],
+        "week4": [1, 1, 1, 1, 1, 0, 1],
+        "week5": [1, 1, 1]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Complete assignments",
+      "rank": 4,
+      "completedDays": 14,
+      "leftDays": 17,
+      "progressPercentage": 45,
+      "dailyStatus": {
+        "week1": [1, 0, 1, 1, 0, 1, 0],
+        "week2": [1, 1, 1, 0, 1, 1, 1],
+        "week3": [0, 1, 1, 1, 0, 1, 1],
+        "week4": [1, 1, 1, 0, 1, 1, 1],
+        "week5": [0, 1, 1]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Revise notes",
+      "rank": 5,
+      "completedDays": 14,
+      "leftDays": 17,
+      "progressPercentage": 45,
+      "dailyStatus": {
+        "week1": [1, 1, 0, 1, 0, 1, 1],
+        "week2": [1, 1, 1, 0, 1, 1, 0],
+        "week3": [1, 1, 1, 1, 0, 1, 1],
+        "week4": [1, 0, 1, 1, 1, 1, 1],
+        "week5": [1, 1, 0]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Drink 2L of water",
+      "rank": 6,
+      "completedDays": 18,
+      "leftDays": 13,
+      "progressPercentage": 58,
+      "dailyStatus": {
+        "week1": [1, 1, 1, 1, 1, 1, 0],
+        "week2": [1, 1, 1, 1, 1, 1, 1],
+        "week3": [1, 1, 1, 1, 1, 0, 1],
+        "week4": [1, 1, 1, 1, 1, 1, 1],
+        "week5": [1, 0, 1]
+      }
+    },
+    {
+      "id": 7,
+      "name": "No Instagram scrolling",
+      "rank": 7,
+      "completedDays": 10,
+      "leftDays": 21,
+      "progressPercentage": 32,
+      "dailyStatus": {
+        "week1": [1, 1, 0, 1, 0, 0, 1],
+        "week2": [1, 0, 1, 1, 0, 1, 0],
+        "week3": [1, 1, 0, 1, 1, 0, 1],
+        "week4": [0, 1, 1, 0, 1, 1, 1],
+        "week5": [1, 0, 0]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Read 10 pages",
+      "rank": 8,
+      "completedDays": 9,
+      "leftDays": 22,
+      "progressPercentage": 29,
+      "dailyStatus": {
+        "week1": [1, 0, 1, 0, 1, 0, 0],
+        "week2": [1, 1, 0, 1, 0, 1, 0],
+        "week3": [1, 0, 1, 0, 1, 1, 0],
+        "week4": [0, 1, 0, 1, 1, 0, 1],
+        "week5": [0, 1, 1]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Exercise / Walk",
+      "rank": 9,
+      "completedDays": 3,
+      "leftDays": 28,
+      "progressPercentage": 10,
+      "dailyStatus": {
+        "week1": [1, 0, 0, 0, 1, 0, 0],
+        "week2": [0, 1, 0, 0, 0, 1, 0],
+        "week3": [1, 0, 0, 0, 1, 0, 0],
+        "week4": [0, 0, 0, 1, 0, 0, 0],
+        "week5": [0, 0, 1]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Save $5",
+      "rank": 10,
+      "completedDays": 2,
+      "leftDays": 29,
+      "progressPercentage": 6,
+      "dailyStatus": {
+        "week1": [0, 0, 1, 0, 0, 0, 0],
+        "week2": [0, 0, 0, 1, 0, 0, 0],
+        "week3": [0, 0, 0, 0, 1, 0, 0],
+        "week4": [0, 0, 0, 0, 0, 1, 0],
+        "week5": [0, 0, 0]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.sidebar-logo-icon {
+  font-size: 24px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #64748b;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.nav-item:hover {
+  background-color: #e9d5ff;
+  color: #7c3aed;
+}
+
+.nav-item.active {
+  background-color: #e9d5ff;
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.nav-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 220px;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.header {
+  background-color: #e9d5ff;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.header-left h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #1e293b;
+}
+
+.header-left p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+}
+
+.date-selector {
+  padding: 8px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.date-selector:active {
+  background-color: #f1f5f9;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.overview-section {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #64748b;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.weeks-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.week-card {
+  flex: 1;
+  text-align: center;
+  min-width: 80px;
+}
+
+.week-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: 12px;
+}
+
+.week-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.day-cell {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #f1f5f9;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.week-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.week-stats span {
+  color: #94a3b8;
+}
+
+.week-progress-bar {
+  height: 4px;
+  background-color: #e2e8f0;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.week-progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+.week-percentage {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.chart-container {
+  height: 200px;
+  margin: 20px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.chart-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.bar {
+  border-radius: 4px 4px 0 0;
+  transition: opacity 0.3s;
+  min-width: 20px;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
+
+.bar-label {
+  font-size: 11px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.progress-circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#34d399 0deg 223.2deg, #e2e8f0 223.2deg 360deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.progress-circle-inner {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #34d399;
+}
+
+.progress-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.stat {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.motivational {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #f0fdf4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.motivational-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #22863a;
+  margin-bottom: 4px;
+}
+
+.motivational-subtext {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.top-habits-list {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.habit-item {
+  padding: 8px 0;
+  font-size: 13px;
+  color: #475569;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.habit-item:last-child {
+  border-bottom: none;
+}
+
+.daily-habits-section {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-top: 24px;
+  overflow-x: auto;
+}
+
+.habits-table {
+  width: 100%;
+  min-width: 600px;
+}
+
+.habits-table-header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 12px;
+}
+
+.habits-table-header-habit {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.habits-table-header-days {
+  display: flex;
+  gap: 4px;
+}
+
+.day-header {
+  width: 24px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.habit-row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f5f9;
+  align-items: center;
+}
+
+.habit-row:last-child {
+  border-bottom: none;
+}
+
+.habit-name {
+  font-size: 13px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.habit-days {
+  display: flex;
+  gap: 4px;
+}
+
+.day-checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.day-checkbox.completed {
+  background-color: #a78bfa;
+  color: #fff;
+  font-weight: 600;
+}
+
+.day-checkbox.not-completed {
+  background-color: #f1f5f9;
+  color: #cbd5e1;
+}
+
+.legend {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+.completed-legend {
+  background-color: #a78bfa;
+}
+
+.not-completed-legend {
+  background-color: #e2e8f0;
+}
+
+/* Tablet Devices (iPad, Android tablets) - 768px to 1024px */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 180px;
+    padding: 16px;
+  }
+
+  .main-content {
+    margin-left: 180px;
+    padding: 16px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .right-sidebar {
+    gap: 16px;
+  }
+
+  .header {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .header-left h1 {
+    font-size: 24px;
+  }
+
+  .overview-section {
+    padding: 16px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .weeks-container {
+    gap: 8px;
+  }
+
+  .week-card {
+    min-width: 70px;
+  }
+
+  .chart-container {
+    height: 150px;
+  }
+}
+
+/* Small Tablets & Large Phones (600px to 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 12px;
+    margin-bottom: 0;
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .sidebar-logo {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .sidebar-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
+  }
+
+  .nav-item {
+    padding: 10px 12px;
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .nav-icon {
+    font-size: 18px;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 12px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .header-right {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .date-selector {
+    flex: 1;
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .header-left h1 {
+    font-size: 22px;
+  }
+
+  .header-left p {
+    font-size: 13px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .right-sidebar {
+    gap: 12px;
+  }
+
+  .overview-section {
+    padding: 12px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .section-title {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .weeks-container {
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+
+  .week-card {
+    min-width: 60px;
+  }
+
+  .week-label {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .week-days {
+    gap: 2px;
+    margin-bottom: 8px;
+  }
+
+  .day-cell {
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+  }
+
+  .week-stats {
+    font-size: 10px;
+  }
+
+  .week-percentage {
+    font-size: 10px;
+  }
+
+  .chart-container {
+    height: 120px;
+    gap: 4px;
+  }
+
+  .bar {
+    min-width: 16px;
+  }
+
+  .bar-label {
+    font-size: 9px;
+  }
+
+  .progress-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .progress-circle-inner {
+    width: 90px;
+    height: 90px;
+    font-size: 28px;
+  }
+
+  .progress-stats {
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .stat-value {
+    font-size: 16px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .motivational {
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .motivational-text {
+    font-size: 12px;
+  }
+
+  .motivational-subtext {
+    font-size: 11px;
+  }
+
+  .top-habits-list {
+    padding-left: 16px;
+  }
+
+  .habit-item {
+    padding: 6px 0;
+    font-size: 12px;
+  }
+
+  .daily-habits-section {
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .habits-table {
+    min-width: 100%;
+  }
+
+  .habits-table-header {
+    grid-template-columns: 150px 1fr;
+    gap: 8px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+  }
+
+  .habits-table-header-habit {
+    font-size: 11px;
+  }
+
+  .habit-row {
+    grid-template-columns: 150px 1fr;
+    gap: 8px;
+    padding: 10px 0;
+  }
+
+  .habit-name {
+    font-size: 12px;
+  }
+
+  .day-checkbox {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .legend {
+    gap: 16px;
+    font-size: 11px;
+    margin-top: 12px;
+    padding-top: 12px;
+  }
+
+  .legend-box {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Small Phones (480px to 600px) */
+@media (max-width: 600px) {
+  .header-left h1 {
+    font-size: 20px;
+  }
+
+  .header-left p {
+    font-size: 12px;
+  }
+
+  .sidebar-nav {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .nav-item {
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  .nav-icon {
+    font-size: 16px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  .header {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .date-selector {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .weeks-container {
+    gap: 2px;
+  }
+
+  .week-card {
+    min-width: 55px;
+  }
+
+  .week-label {
+    font-size: 9px;
+  }
+
+  .week-days {
+    gap: 1px;
+  }
+
+  .day-cell {
+    width: 18px;
+    height: 18px;
+    font-size: 7px;
+  }
+
+  .chart-container {
+    height: 100px;
+    gap: 3px;
+  }
+
+  .bar {
+    min-width: 12px;
+  }
+
+  .bar-label {
+    font-size: 8px;
+  }
+
+  .progress-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .progress-circle-inner {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+
+  .habits-table {
+    min-width: 100%;
+    font-size: 11px;
+  }
+
+  .habits-table-header {
+    grid-template-columns: 120px 1fr;
+    gap: 6px;
+  }
+
+  .habit-row {
+    grid-template-columns: 120px 1fr;
+    gap: 6px;
+  }
+
+  .habit-name {
+    font-size: 11px;
+  }
+
+  .day-checkbox {
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+  }
+
+  .top-habits-list {
+    padding-left: 14px;
+    font-size: 11px;
+  }
+
+  .habit-item {
+    font-size: 11px;
+    padding: 4px 0;
+  }
+}
+
+/* Extra Small Phones (< 480px) */
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .header-left h1 {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  .header-left p {
+    font-size: 11px;
+  }
+
+  .header-right {
+    gap: 6px;
+  }
+
+  .date-selector {
+    padding: 6px 8px;
+    font-size: 11px;
+    flex: 1;
+  }
+
+  .main-content {
+    padding: 8px;
+  }
+
+  .sidebar-logo {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .sidebar-logo-icon {
+    font-size: 20px;
+  }
+
+  .sidebar-nav {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+  }
+
+  .nav-item {
+    padding: 6px 4px;
+    font-size: 9px;
+  }
+
+  .nav-icon {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .overview-section {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .weeks-container {
+    gap: 2px;
+    margin-bottom: 12px;
+  }
+
+  .week-card {
+    min-width: 50px;
+  }
+
+  .week-label {
+    font-size: 8px;
+    margin-bottom: 4px;
+  }
+
+  .week-days {
+    gap: 1px;
+    margin-bottom: 4px;
+  }
+
+  .day-cell {
+    width: 16px;
+    height: 16px;
+    font-size: 6px;
+  }
+
+  .week-stats {
+    font-size: 9px;
+  }
+
+  .week-percentage {
+    font-size: 9px;
+  }
+
+  .chart-container {
+    height: 80px;
+    gap: 2px;
+    margin: 12px 0;
+  }
+
+  .bar {
+    min-width: 10px;
+  }
+
+  .bar-label {
+    font-size: 7px;
+  }
+
+  .progress-circle {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 12px;
+  }
+
+  .progress-circle-inner {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .progress-stats {
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .stat-value {
+    font-size: 14px;
+  }
+
+  .stat-label {
+    font-size: 9px;
+  }
+
+  .motivational {
+    padding: 8px;
+    margin-top: 8px;
+  }
+
+  .motivational-text {
+    font-size: 11px;
+  }
+
+  .motivational-subtext {
+    font-size: 10px;
+  }
+
+  .top-habits-list {
+    padding-left: 12px;
+    font-size: 10px;
+  }
+
+  .habit-item {
+    padding: 3px 0;
+    font-size: 10px;
+  }
+
+  .daily-habits-section {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .habits-table {
+    font-size: 10px;
+    min-width: 100%;
+  }
+
+  .habits-table-header {
+    grid-template-columns: 100px 1fr;
+    gap: 4px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+
+  .habits-table-header-habit {
+    font-size: 10px;
+  }
+
+  .habit-row {
+    grid-template-columns: 100px 1fr;
+    gap: 4px;
+    padding: 8px 0;
+  }
+
+  .habit-name {
+    font-size: 10px;
+  }
+
+  .day-checkbox {
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+  }
+
+  .legend {
+    gap: 12px;
+    font-size: 10px;
+    margin-top: 8px;
+    padding-top: 8px;
+  }
+
+  .legend-box {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* iPhone specific styles (X, 11, 12, 13, 14 Pro with notch) */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+    padding-top: max(12px, env(safe-area-inset-top));
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+
+  .sidebar-logo {
+    padding-left: env(safe-area-inset-left);
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .header {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 500px) and (orientation: landscape) {
+  .sidebar {
+    height: auto;
+    max-height: 100vh;
+  }
+
+  .main-content {
+    padding: 8px;
+  }
+
+  .header {
+    margin-bottom: 12px;
+    padding: 10px;
+  }
+
+  .overview-section {
+    padding: 12px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .chart-container {
+    height: 100px;
+  }
+}
