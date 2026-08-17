@@ -1,0 +1,1 @@
+console.log('Habit Tracker UI Ready');
