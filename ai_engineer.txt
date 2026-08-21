@@ -12,168 +12,168 @@ Questions:
 
 Module 1: AI Fundamentals (Basic)
 Beginner Level
-What is Artificial Intelligence (AI)?
+1.1 What is Artificial Intelligence (AI)?
 
-- Ai is the ability of computers and machines to simulate human thinking, learning, and problem-solving. It empowers software to process data, recognize patterns, and make decisions without constant human help.
+Ans: AI is the ability of computers and machines to simulate human thinking, learning, and problem-solving. It empowers software to process data, recognize patterns, and make decisions without constant human help.
 
-What is Machine Learning (ML)?
-What is Deep Learning?
-What is Generative AI?
-Difference between AI, ML, Deep Learning, and Generative AI.
-What is a Neural Network?
-What is supervised learning?
-What is unsupervised learning?
-What is reinforcement learning?
-What are the major applications of AI today?
+1.2 What is Machine Learning (ML)?
+1.3 What is Deep Learning?
+1.4 What is Generative AI?
+1.5 Difference between AI, ML, Deep Learning, and Generative AI.
+1.6 What is a Neural Network?
+1.7 What is supervised learning?
+1.8 What is unsupervised learning?
+1.9 What is reinforcement learning?
+1.10 What are the major applications of AI today?
 Module 2: LLM Fundamentals
-What is an LLM (Large Language Model)?
-How does an LLM work?
-What is a token?
-What is tokenization?
-Why don't LLMs process words directly?
-What is a context window?
-What is next-token prediction?
-What is pre-training?
-What is inference?
-What are model parameters?
+2.1 What is an LLM (Large Language Model)?
+2.2 How does an LLM work?
+2.3 What is a token?
+2.4 What is tokenization?
+2.5 Why don't LLMs process words directly?
+2.6 What is a context window?
+2.7 What is next-token prediction?
+2.8 What is pre-training?
+2.9 What is inference?
+2.10 What are model parameters?
 Module 3: Transformer Architecture
-What problem existed before Transformers?
-What is a Transformer architecture?
-What is Attention?
-What is Self-Attention?
-What are Query, Key, and Value vectors?
-What is Multi-Head Attention?
-What is Positional Encoding?
-What are Encoder and Decoder blocks?
-Why are Transformers faster than RNNs?
-Explain the Transformer architecture end-to-end.
+3.1 What problem existed before Transformers?
+3.2 What is a Transformer architecture?
+3.3 What is Attention?
+3.4 What is Self-Attention?
+3.5 What are Query, Key, and Value vectors?
+3.6 What is Multi-Head Attention?
+3.7 What is Positional Encoding?
+3.8 What are Encoder and Decoder blocks?
+3.9 Why are Transformers faster than RNNs?
+3.10 Explain the Transformer architecture end-to-end.
 Module 4: Prompt Engineering
-What is a prompt?
-What is Prompt Engineering?
-What are system prompts?
-What are user prompts?
-What is zero-shot prompting?
-What is one-shot prompting?
-What is few-shot prompting?
-What is chain-of-thought prompting?
-What is role-based prompting?
-How do you design production-quality prompts?
+4.1 What is a prompt?
+4.2 What is Prompt Engineering?
+4.3 What are system prompts?
+4.4 What are user prompts?
+4.5 What is zero-shot prompting?
+4.6 What is one-shot prompting?
+4.7 What is few-shot prompting?
+4.8 What is chain-of-thought prompting?
+4.9 What is role-based prompting?
+4.10 How do you design production-quality prompts?
 Module 5: Embeddings & Semantic Search
-What are embeddings?
-Why do embeddings work?
-How are embeddings generated?
-What is cosine similarity?
-What is semantic search?
-Difference between keyword search and semantic search.
-What is vectorization?
-How are embeddings stored?
-What are embedding models?
-Real-world use cases of embeddings.
+5.1 What are embeddings?
+5.2 Why do embeddings work?
+5.3 How are embeddings generated?
+5.4 What is cosine similarity?
+5.5 What is semantic search?
+5.6 Difference between keyword search and semantic search.
+5.7 What is vectorization?
+5.8 How are embeddings stored?
+5.9 What are embedding models?
+5.10 Real-world use cases of embeddings.
 Module 6: Vector Databases
-What is a vector database?
-Why can't traditional SQL databases handle vector search efficiently?
-What is ANN (Approximate Nearest Neighbor Search)?
-What is HNSW indexing?
-What is vector similarity search?
-How does a vector database work internally?
-Popular vector databases.
-When should you use a vector database?
-How does vector search scale?
-Explain vector database architecture.
+6.1 What is a vector database?
+6.2 Why can't traditional SQL databases handle vector search efficiently?
+6.3 What is ANN (Approximate Nearest Neighbor Search)?
+6.4 What is HNSW indexing?
+6.5 What is vector similarity search?
+6.6 How does a vector database work internally?
+6.7 Popular vector databases.
+6.8 When should you use a vector database?
+6.9 How does vector search scale?
+6.10 Explain vector database architecture.
 
-Examples:
+6.11 Examples:
 
-Pinecone
-Weaviate
-Milvus
+6.11.1 Pinecone
+6.11.2 Weaviate
+6.11.3 Milvus
 Module 7: RAG (Retrieval-Augmented Generation)
-What is RAG?
-Why was RAG introduced?
-How does RAG work?
-Explain the complete RAG pipeline.
-What is chunking?
-What chunk size should be used?
-What is overlap in chunking?
-What is retrieval?
-What is reranking?
-How does RAG reduce hallucinations?
+7.1 What is RAG?
+7.2 Why was RAG introduced?
+7.3 How does RAG work?
+7.4 Explain the complete RAG pipeline.
+7.5 What is chunking?
+7.6 What chunk size should be used?
+7.7 What is overlap in chunking?
+7.8 What is retrieval?
+7.9 What is reranking?
+7.10 How does RAG reduce hallucinations?
 Module 8: Fine-Tuning
-What is fine-tuning?
-What is supervised fine-tuning?
-What is instruction tuning?
-What is domain adaptation?
-Fine-tuning vs Prompt Engineering.
-Fine-tuning vs RAG.
-What datasets are required for fine-tuning?
-What is LoRA?
-What is QLoRA?
-When should you avoid fine-tuning?
+8.1 What is fine-tuning?
+8.2 What is supervised fine-tuning?
+8.3 What is instruction tuning?
+8.4 What is domain adaptation?
+8.5 Fine-tuning vs Prompt Engineering.
+8.6 Fine-tuning vs RAG.
+8.7 What datasets are required for fine-tuning?
+8.8 What is LoRA?
+8.9 What is QLoRA?
+8.10 When should you avoid fine-tuning?
 Module 9: AI Agents
-What is an AI Agent?
-Difference between chatbot and AI agent.
-What is agentic AI?
-What is planning in agents?
-What is reasoning in agents?
-What is tool calling?
-What is function calling?
-What is memory in agents?
-What is multi-agent architecture?
-Real-world agent use cases.
+9.1 What is an AI Agent?
+9.2 Difference between chatbot and AI agent.
+9.3 What is agentic AI?
+9.4 What is planning in agents?
+9.5 What is reasoning in agents?
+9.6 What is tool calling?
+9.7 What is function calling?
+9.8 What is memory in agents?
+9.9 What is multi-agent architecture?
+9.10 Real-world agent use cases.
 Module 10: Production AI Systems
-What causes hallucinations?
-How do you evaluate LLM responses?
-What are AI guardrails?
-How do you secure an AI application?
-How do you prevent prompt injection attacks?
-How do you optimize AI costs?
-How do you reduce latency?
-What is observability in AI systems?
-How would you design an enterprise RAG system?
-How would you architect a production-grade AI platform?
+10.1 What causes hallucinations?
+10.2 How do you evaluate LLM responses?
+10.3 What are AI guardrails?
+10.4 How do you secure an AI application?
+10.5 How do you prevent prompt injection attacks?
+10.6 How do you optimize AI costs?
+10.7 How do you reduce latency?
+10.8 What is observability in AI systems?
+10.9 How would you design an enterprise RAG system?
+10.10 How would you architect a production-grade AI platform?
 
 
 Generative AI Learning Roadmap
 Level 1: Fundamentals
-What is AI?
-What is Machine Learning?
-What is Deep Learning?
-What is Generative AI?
-Difference between AI, ML, Deep Learning, and Generative AI
-What are Large Language Models (LLMs)?
-How does ChatGPT work?
-What is a Prompt?
-What is Prompt Engineering?
-What are Tokens?
+L1.1 What is AI?
+L1.2 What is Machine Learning?
+L1.3 What is Deep Learning?
+L1.4 What is Generative AI?
+L1.5 Difference between AI, ML, Deep Learning, and Generative AI
+L1.6 What are Large Language Models (LLMs)?
+L1.7 How does ChatGPT work?
+L1.8 What is a Prompt?
+L1.9 What is Prompt Engineering?
+L1.10 What are Tokens?
 Level 2: LLM Concepts
-What is a Transformer?
-What is Self-Attention?
-What is Context Window?
-What is Temperature?
-What is Top-P and Top-K Sampling?
-What is Hallucination?
-What are Embeddings?
-What is Fine-Tuning?
-What is RAG (Retrieval Augmented Generation)?
-What is Function Calling?
+L2.1 What is a Transformer?
+L2.2 What is Self-Attention?
+L2.3 What is Context Window?
+L2.4 What is Temperature?
+L2.5 What is Top-P and Top-K Sampling?
+L2.6 What is Hallucination?
+L2.7 What are Embeddings?
+L2.8 What is Fine-Tuning?
+L2.9 What is RAG (Retrieval Augmented Generation)?
+L2.10 What is Function Calling?
 Level 3: Developer-Focused Concepts
-How to integrate OpenAI APIs?
-What is Vector Database?
-What is Semantic Search?
-What is Chunking?
-What is Prompt Chaining?
-What are AI Agents?
-What is MCP (Model Context Protocol)?
-What are AI Workflows?
-What is Tool Calling?
-How do AI Chatbots maintain memory?
+L3.1 How to integrate OpenAI APIs?
+L3.2 What is Vector Database?
+L3.3 What is Semantic Search?
+L3.4 What is Chunking?
+L3.5 What is Prompt Chaining?
+L3.6 What are AI Agents?
+L3.7 What is MCP (Model Context Protocol)?
+L3.8 What are AI Workflows?
+L3.9 What is Tool Calling?
+L3.10 How do AI Chatbots maintain memory?
 Level 4: Advanced Concepts
-What is Multi-Agent Architecture?
-What is Fine-Tuning vs RAG?
-What is RLHF?
-What is Agentic AI?
-What are AI Evaluation Metrics?
-How to reduce hallucinations?
-What is Context Engineering?
-What is AI Guardrails?
-What are AI Observability Tools?
-How to build production-ready AI applications?
+L4.1 What is Multi-Agent Architecture?
+L4.2 What is Fine-Tuning vs RAG?
+L4.3 What is RLHF?
+L4.4 What is Agentic AI?
+L4.5 What are AI Evaluation Metrics?
+L4.6 How to reduce hallucinations?
+L4.7 What is Context Engineering?
+L4.8 What is AI Guardrails?
+L4.9 What are AI Observability Tools?
+L4.10 How to build production-ready AI applications?
