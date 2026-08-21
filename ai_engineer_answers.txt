@@ -1,0 +1,1769 @@
+AI Engineer Study Guide - Answers
+
+Module 1: AI Fundamentals
+
+1.1 What is Artificial Intelligence (AI)?
+Ans: AI enables computers to perform tasks that normally require human intelligence, such as learning, reasoning, perception, and decision-making.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.2 What is Machine Learning (ML)?
+Ans: ML is a branch of AI where systems learn patterns from data to make predictions or decisions without being explicitly programmed for every rule.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.3 What is Deep Learning?
+Ans: Deep learning is ML that uses multi-layer neural networks to learn complex patterns from large amounts of data.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.4 What is Generative AI?
+Ans: Generative AI creates new content-such as text, images, audio, code, or video-based on patterns learned from training data.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.5 Difference between AI, ML, Deep Learning, and Generative AI.
+Ans: AI is the broad field; ML is AI that learns from data; deep learning is ML using deep neural networks; generative AI creates new content.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.6 What is a Neural Network?
+Ans: A neural network is a model made of connected layers of nodes that learns relationships by adjusting numeric weights during training.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.7 What is supervised learning?
+Ans: Supervised learning trains on labelled input-output examples, such as emails labelled spam or not spam.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.8 What is unsupervised learning?
+Ans: Unsupervised learning finds patterns or groups in unlabelled data, such as clustering similar customers.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.9 What is reinforcement learning?
+Ans: Reinforcement learning trains an agent through rewards and penalties for actions taken in an environment.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+1.10 What are the major applications of AI today?
+Ans: Major uses include chatbots, recommendations, fraud detection, medical imaging, translation, autonomous systems, forecasting, and content generation.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+Module 2: LLM Fundamentals
+
+2.1 What is an LLM (Large Language Model)?
+Ans: An LLM is a neural network trained on large text datasets to understand and generate language by predicting tokens.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.2 How does an LLM work?
+Ans: It tokenizes input, processes token representations through Transformer layers, predicts likely next tokens, and repeats until it finishes a response.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.3 What is a token?
+Ans: A token is a small unit of text processed by an LLM; it may be a word, part of a word, punctuation mark, or character sequence.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.4 What is tokenization?
+Ans: Tokenization splits text into tokens and maps each token to a numeric ID that the model can process.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.5 Why don't LLMs process words directly?
+Ans: Words are too varied and unknown words occur often, so tokenization uses reusable subword pieces and a fixed numeric vocabulary.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.6 What is a context window?
+Ans: A context window is the maximum number of input and output tokens the model can consider in one request.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.7 What is next-token prediction?
+Ans: It is the training and generation task of estimating which token is most likely to come next given previous tokens.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.8 What is pre-training?
+Ans: Pre-training teaches a base model broad language patterns from large general datasets, usually with next-token prediction.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.9 What is inference?
+Ans: Inference is using a trained model to produce a prediction or response for new input.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+2.10 What are model parameters?
+Ans: Parameters are learned numeric weights inside a model; they store the patterns learned during training.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+Module 3: Transformer Architecture
+
+3.1 What problem existed before Transformers?
+Ans: RNNs processed text sequentially, which limited parallel training and made long-range dependencies difficult to learn.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.2 What is a Transformer architecture?
+Ans: A Transformer is a neural-network architecture that uses attention to relate tokens and can process sequences largely in parallel.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.3 What is Attention?
+Ans: Attention lets a model assign different importance to different tokens when creating a representation for a token.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.4 What is Self-Attention?
+Ans: Self-attention lets every token in one sequence examine other tokens in that same sequence to gather relevant context.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.5 What are Query, Key, and Value vectors?
+Ans: Queries express what a token seeks, keys describe what tokens offer, and values contain the information returned after attention weighting.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.6 What is Multi-Head Attention?
+Ans: Multi-head attention runs several attention calculations in parallel so the model can learn different relationships at once.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.7 What is Positional Encoding?
+Ans: Positional encoding adds information about token order because attention alone does not know which token comes first.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.8 What are Encoder and Decoder blocks?
+Ans: Encoders build contextual input representations; decoders generate output tokens while attending to earlier output and, in some models, encoder output.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.9 Why are Transformers faster than RNNs?
+Ans: Transformers process tokens in parallel during training, while RNNs must process tokens one by one.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+3.10 Explain the Transformer architecture end-to-end.
+Ans: Tokens become embeddings with positions, pass through repeated attention and feed-forward layers, then a final layer predicts probabilities for the next token.
+Example:
+```python
+import numpy as np
+scores = np.array([[1.0, 2.0]])
+weights = np.exp(scores) / np.exp(scores).sum()
+context = weights @ np.array([[10.0], [20.0]])
+print(context)
+```
+ব্যাখ্যা: এখানে score থেকে attention weight বের করে গুরুত্বপূর্ণ তথ্যের weighted context তৈরি করা হয়েছে।
+
+Module 4: Prompt Engineering
+
+4.1 What is a prompt?
+Ans: A prompt is the instruction and context provided to an AI model to guide its response.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.2 What is Prompt Engineering?
+Ans: Prompt engineering is designing clear instructions, context, examples, constraints, and output formats to get reliable model results.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.3 What are system prompts?
+Ans: System prompts set high-level model behavior, role, rules, and priorities for a conversation or application.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.4 What are user prompts?
+Ans: User prompts are the requests or questions sent by the user during a conversation.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.5 What is zero-shot prompting?
+Ans: Zero-shot prompting asks the model to perform a task without giving examples.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.6 What is one-shot prompting?
+Ans: One-shot prompting gives one example of the desired task and output before the actual request.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.7 What is few-shot prompting?
+Ans: Few-shot prompting provides several examples to demonstrate the desired pattern, style, or classification rule.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.8 What is chain-of-thought prompting?
+Ans: It is prompting that encourages structured intermediate reasoning; in production, request concise rationale or verified final steps when appropriate.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.9 What is role-based prompting?
+Ans: Role-based prompting assigns a relevant perspective, such as teacher, recruiter, or security reviewer, to shape the response.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+4.10 How do you design production-quality prompts?
+Ans: State the goal, provide required context, define constraints and format, include examples when useful, and test against realistic edge cases.
+Example:
+```python
+def build_prompt(text):
+    return f"Summarize in one sentence: {text}"
+prompt = build_prompt("RAG retrieves useful context.")
+print(prompt)
+```
+ব্যাখ্যা: এখানে একটি পরিষ্কার instruction ও context মিলিয়ে LLM-এর জন্য prompt তৈরি করা হয়েছে।
+
+Module 5: Embeddings & Semantic Search
+
+5.1 What are embeddings?
+Ans: Embeddings are dense numeric vectors that represent the meaning or characteristics of text, images, or other data.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.2 Why do embeddings work?
+Ans: Training makes related items receive nearby vectors, allowing similarity to be measured mathematically.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.3 How are embeddings generated?
+Ans: An embedding model converts input into a fixed-length vector using learned neural-network weights.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.4 What is cosine similarity?
+Ans: Cosine similarity measures the angle between two vectors; values closer to 1 generally mean stronger similarity.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.5 What is semantic search?
+Ans: Semantic search retrieves results by meaning and intent, not only by exact keyword matches.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.6 Difference between keyword search and semantic search.
+Ans: Keyword search matches literal terms, while semantic search compares embeddings and can find differently worded but related content.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.7 What is vectorization?
+Ans: Vectorization converts data such as text into numbers that algorithms can process; it can use word counts, TF-IDF, or embeddings.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.8 How are embeddings stored?
+Ans: They are stored as arrays of floating-point numbers with metadata and source content, commonly in a vector database.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.9 What are embedding models?
+Ans: Embedding models are models trained to map related inputs close together in vector space.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+5.10 Real-world use cases of embeddings.
+Ans: Uses include semantic search, RAG, recommendations, duplicate detection, clustering, classification, and matching support tickets.
+Example:
+```python
+import numpy as np
+query = np.array([1.0, 0.0])
+document = np.array([0.8, 0.2])
+score = query @ document / (np.linalg.norm(query) * np.linalg.norm(document))
+print(round(score, 2))
+```
+ব্যাখ্যা: এখানে দুইটি vector-এর cosine similarity গণনা করে তাদের অর্থগত মিল বোঝানো হয়েছে।
+
+Module 6: Vector Databases
+
+6.1 What is a vector database?
+Ans: A vector database stores vectors with metadata and efficiently retrieves vectors that are most similar to a query vector.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.2 Why can't traditional SQL databases handle vector search efficiently?
+Ans: SQL databases can store vectors, but are not usually optimized for fast nearest-neighbor search across millions of high-dimensional vectors.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.3 What is ANN (Approximate Nearest Neighbor Search)?
+Ans: ANN finds very close neighbors quickly by accepting a small chance of missing the mathematically exact nearest result.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.4 What is HNSW indexing?
+Ans: HNSW is a graph-based ANN index that connects vectors at multiple layers for fast approximate similarity search.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.5 What is vector similarity search?
+Ans: It searches for stored vectors closest to a query vector using a metric such as cosine similarity, dot product, or Euclidean distance.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.6 How does a vector database work internally?
+Ans: It stores vectors and metadata, builds an index, converts a query into a vector, searches nearby indexed vectors, and returns ranked results.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.7 Popular vector databases.
+Ans: Popular options include Pinecone, Weaviate, Milvus, Qdrant, Chroma, FAISS, and pgvector for PostgreSQL.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.8 When should you use a vector database?
+Ans: Use one when you need fast semantic similarity search over many embeddings, such as document retrieval for RAG.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.9 How does vector search scale?
+Ans: It scales through approximate indexes, sharding, replication, batching, filtering metadata before search, and efficient hardware.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.10 Explain vector database architecture.
+Ans: An application creates embeddings, writes vectors plus metadata to storage, an ANN index enables retrieval, and an API returns nearest filtered results.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.11 Examples:
+Ans: Common vector database products are listed below.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.11.1 Pinecone
+Ans: Pinecone is a managed cloud vector database focused on scalable similarity search.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.11.2 Weaviate
+Ans: Weaviate is an open-source vector database with hybrid search and schema-based data support.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+6.11.3 Milvus
+Ans: Milvus is an open-source vector database designed for high-scale vector search.
+Example:
+```python
+vectors = {"doc1": [1, 0], "doc2": [0, 1]}
+query = [0.9, 0.1]
+best = max(vectors, key=lambda key: sum(a*b for a, b in zip(query, vectors[key])))
+print(best)
+```
+ব্যাখ্যা: এখানে query vector-এর সঙ্গে সবচেয়ে বেশি মিল থাকা document নির্বাচন করা হয়েছে।
+
+Module 7: RAG (Retrieval-Augmented Generation)
+
+7.1 What is RAG?
+Ans: RAG retrieves relevant external information and supplies it to an LLM so the model can answer using that context.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.2 Why was RAG introduced?
+Ans: RAG helps provide current, private, and verifiable knowledge without retraining the model for every document change.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.3 How does RAG work?
+Ans: Documents are chunked and embedded; a query is embedded, relevant chunks are retrieved, and an LLM answers using those chunks.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.4 Explain the complete RAG pipeline.
+Ans: Ingest documents, clean and chunk them, create embeddings, index them, retrieve relevant chunks for a query, optionally rerank, then generate a grounded answer.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.5 What is chunking?
+Ans: Chunking divides long documents into smaller passages that can be embedded, retrieved, and supplied within an LLM context window.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.6 What chunk size should be used?
+Ans: Choose a size that preserves one coherent idea; often 200-800 tokens, then validate using your documents and retrieval quality.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.7 What is overlap in chunking?
+Ans: Overlap repeats some text between neighboring chunks so facts at boundaries are not separated from their context.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.8 What is retrieval?
+Ans: Retrieval selects the documents or chunks most relevant to a user query from an index or database.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.9 What is reranking?
+Ans: Reranking uses a stronger relevance model to reorder initially retrieved results before they are passed to the LLM.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+7.10 How does RAG reduce hallucinations?
+Ans: It grounds responses in retrieved source material, but it does not eliminate hallucinations; prompt rules, citations, and evaluation are still needed.
+Example:
+```python
+documents = ["RAG retrieves context.", "Python is a language."]
+question = "What does RAG do?"
+context = documents[0]
+answer = f"Using context: {context}"
+print(answer)
+```
+ব্যাখ্যা: এখানে পাওয়া document context প্রশ্নের সঙ্গে যোগ করে একটি grounded উত্তর তৈরি করা হয়েছে।
+
+Module 8: Fine-Tuning
+
+8.1 What is fine-tuning?
+Ans: Fine-tuning continues training a pre-trained model on a smaller task-specific dataset to change its behavior or expertise.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.2 What is supervised fine-tuning?
+Ans: Supervised fine-tuning trains a model on example inputs paired with desired outputs.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.3 What is instruction tuning?
+Ans: Instruction tuning is fine-tuning on instruction-and-response examples so a model follows requests more reliably.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.4 What is domain adaptation?
+Ans: Domain adaptation adjusts a model for a specialized field, such as legal, medical, or company-specific language.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.5 Fine-tuning vs Prompt Engineering.
+Ans: Prompt engineering changes instructions at inference time; fine-tuning changes model weights using training data.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.6 Fine-tuning vs RAG.
+Ans: Fine-tuning changes behavior or style, while RAG supplies external knowledge at query time; they can be combined.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.7 What datasets are required for fine-tuning?
+Ans: You need high-quality, representative, legally usable examples of the target input and ideal output, with train and evaluation splits.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.8 What is LoRA?
+Ans: LoRA is parameter-efficient fine-tuning that trains small low-rank adapter weights instead of all model weights.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.9 What is QLoRA?
+Ans: QLoRA combines quantized base-model weights with LoRA adapters to reduce memory use during fine-tuning.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+8.10 When should you avoid fine-tuning?
+Ans: Avoid it when a clear prompt, tools, RAG, better data, or rules solve the need more cheaply and safely.
+Example:
+```python
+examples = [("short", "brief"), ("long", "detailed")]
+def learn_style(data):
+    return {input_text: output for input_text, output in data}
+style_model = learn_style(examples)
+print(style_model["short"])
+```
+ব্যাখ্যা: এখানে input-output উদাহরণ থেকে একটি নির্দিষ্ট আচরণ বা style শেখানোর ধারণা দেখানো হয়েছে।
+
+Module 9: AI Agents
+
+9.1 What is an AI Agent?
+Ans: An AI agent is a system that uses a model to pursue a goal by deciding steps, using tools, and responding to results.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.2 Difference between chatbot and AI agent.
+Ans: A chatbot primarily responds in conversation; an agent can plan and take actions through tools to complete multi-step tasks.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.3 What is agentic AI?
+Ans: Agentic AI refers to AI systems that can autonomously plan, act, observe results, and iterate toward goals within defined limits.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.4 What is planning in agents?
+Ans: Planning breaks a goal into ordered actions, identifies needed information or tools, and updates the plan as conditions change.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.5 What is reasoning in agents?
+Ans: Reasoning is the process of using available information to choose actions, evaluate evidence, and handle constraints.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.6 What is tool calling?
+Ans: Tool calling lets a model request an external operation, such as a database query, web search, or calendar update.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.7 What is function calling?
+Ans: Function calling is a structured form of tool calling where the model returns arguments matching a predefined function schema.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.8 What is memory in agents?
+Ans: Memory stores useful past context, preferences, facts, or task state so an agent can act consistently over time.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.9 What is multi-agent architecture?
+Ans: It is a design where specialized agents collaborate, for example a researcher, planner, coder, and reviewer coordinated by an orchestrator.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+9.10 Real-world agent use cases.
+Ans: Use cases include customer-support workflows, research assistants, coding assistants, document processing, scheduling, and operations automation.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+Module 10: Production AI Systems
+
+10.1 What causes hallucinations?
+Ans: Hallucinations arise when a model generates plausible text without sufficient grounding, often due to ambiguity, missing knowledge, or weak retrieval.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.2 How do you evaluate LLM responses?
+Ans: Define representative test cases and measure accuracy, groundedness, safety, format compliance, latency, cost, and human preference.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.3 What are AI guardrails?
+Ans: Guardrails are controls that constrain unsafe, incorrect, or unauthorized AI behavior through policies, validation, filters, and permissions.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.4 How do you secure an AI application?
+Ans: Use authentication, authorization, secret management, input validation, least privilege, encryption, audit logs, and secure tool access.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.5 How do you prevent prompt injection attacks?
+Ans: Treat external text as untrusted data, isolate system instructions, restrict tools and data access, validate actions, and require approval for sensitive operations.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.6 How do you optimize AI costs?
+Ans: Use smaller suitable models, limit tokens, cache results, batch work, retrieve only useful context, and monitor usage.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.7 How do you reduce latency?
+Ans: Stream responses, use smaller models, parallelize independent tasks, cache, reduce prompt size, and optimize retrieval.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.8 What is observability in AI systems?
+Ans: Observability is monitoring prompts, responses, tool calls, retrievals, errors, costs, latency, and quality so problems can be diagnosed.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.9 How would you design an enterprise RAG system?
+Ans: Build secure ingestion, access-aware chunking and indexing, hybrid retrieval and reranking, source citations, evaluation, monitoring, and human escalation.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+10.10 How would you architect a production-grade AI platform?
+Ans: Separate model access, data pipelines, retrieval, tools, policy controls, observability, evaluation, deployment, and identity-based permissions into scalable services.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+Generative AI Learning Roadmap - Answer Map
+
+Level 1: Fundamentals
+
+L1.1 What is AI?
+Ans: See 1.1.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.2 What is Machine Learning?
+Ans: See 1.2.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.3 What is Deep Learning?
+Ans: See 1.3.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.4 What is Generative AI?
+Ans: See 1.4.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.5 Difference between AI, ML, Deep Learning, and Generative AI.
+Ans: See 1.5.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.6 What are Large Language Models (LLMs)?
+Ans: See 2.1.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.7 How does ChatGPT work?
+Ans: It is an LLM application that uses a Transformer to predict response tokens from conversation context.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.8 What is a Prompt?
+Ans: See 4.1.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.9 What is Prompt Engineering?
+Ans: See 4.2.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+L1.10 What are Tokens?
+Ans: See 2.3.
+Example:
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+X = CountVectorizer().fit_transform(["hello", "what is AI?"])
+model = LogisticRegression().fit(X, ["greeting", "question"])
+print(model.predict(X)[0])
+```
+ব্যাখ্যা: এখানে CountVectorizer টেক্সটকে সংখ্যায় রূপান্তর করে এবং Logistic Regression সেই ডেটা থেকে শ্রেণি শিখে।
+
+Level 2: LLM Concepts
+
+L2.1 What is a Transformer?
+Ans: See 3.2.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.2 What is Self-Attention?
+Ans: See 3.4.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.3 What is Context Window?
+Ans: See 2.6.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.4 What is Temperature?
+Ans: Temperature controls randomness in token selection; higher values make responses more varied, while lower values make them more predictable.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.5 What is Top-P and Top-K Sampling?
+Ans: Top-K limits choices to the K most likely tokens; Top-P chooses from the smallest set whose cumulative probability reaches P.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.6 What is Hallucination?
+Ans: A hallucination is a generated statement that is false, unsupported, or invented while sounding confident.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.7 What are Embeddings?
+Ans: See 5.1.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.8 What is Fine-Tuning?
+Ans: See 8.1.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.9 What is RAG (Retrieval Augmented Generation)?
+Ans: See 7.1.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+L2.10 What is Function Calling?
+Ans: See 9.7.
+Example:
+```python
+text = "AI learns patterns"
+tokens = text.lower().split()
+token_ids = {token: i for i, token in enumerate(tokens)}
+print(tokens, token_ids)
+```
+ব্যাখ্যা: এখানে বাক্যকে token-এ ভাগ করে প্রতিটি token-এর জন্য একটি numeric ID তৈরি করা হয়েছে।
+
+Level 3: Developer-Focused Concepts
+
+L3.1 How to integrate OpenAI APIs?
+Ans: Send authenticated API requests with a model, input, and optional tools; securely store API keys and handle errors, limits, and outputs.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.2 What is Vector Database?
+Ans: See 6.1.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.3 What is Semantic Search?
+Ans: See 5.5.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.4 What is Chunking?
+Ans: See 7.5.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.5 What is Prompt Chaining?
+Ans: Prompt chaining divides a complex task into sequential model calls where one result becomes input to the next.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.6 What are AI Agents?
+Ans: See 9.1.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.7 What is MCP (Model Context Protocol)?
+Ans: MCP is an open protocol for connecting AI applications to tools, data sources, and reusable context providers through standardized interfaces.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.8 What are AI Workflows?
+Ans: AI workflows are defined sequences of model calls, tools, validations, and human steps used to complete a business task.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.9 What is Tool Calling?
+Ans: See 9.6.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+L3.10 How do AI Chatbots maintain memory?
+Ans: They retain short-term chat history and may store selected long-term facts in a database for later retrieval.
+Example:
+```python
+def get_weather(city):
+    return {"city": city, "temp_c": 28}
+tool_result = get_weather("Dhaka")
+answer = f"Temperature: {tool_result[\"temp_c\"]}C"
+print(answer)
+```
+ব্যাখ্যা: এখানে agent একটি function tool চালিয়ে ফলাফল নিয়ে ব্যবহারকারীর জন্য উত্তর তৈরি করছে।
+
+Level 4: Advanced Concepts
+
+L4.1 What is Multi-Agent Architecture?
+Ans: See 9.9.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.2 What is Fine-Tuning vs RAG?
+Ans: See 8.6.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.3 What is RLHF?
+Ans: Reinforcement Learning from Human Feedback uses human preference data to train a reward model and improve model behavior.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.4 What is Agentic AI?
+Ans: See 9.3.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.5 What are AI Evaluation Metrics?
+Ans: They measure qualities such as task accuracy, factuality, relevance, safety, latency, cost, and user satisfaction.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.6 How to reduce hallucinations?
+Ans: Use grounded retrieval, precise prompts, source citations, structured outputs, tool verification, and evaluation with representative test cases.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.7 What is Context Engineering?
+Ans: Context engineering is selecting, structuring, and managing the instructions, data, memories, and tool outputs given to a model.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.8 What is AI Guardrails?
+Ans: See 10.3.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.9 What are AI Observability Tools?
+Ans: These tools trace and monitor model requests, prompts, outputs, retrieval quality, costs, latency, and failures.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+L4.10 How to build production-ready AI applications?
+Ans: Combine reliable data, clear UX, security, guardrails, evaluations, monitoring, scalable infrastructure, and human review for high-risk cases.
+Example:
+```python
+def is_allowed(role, action):
+    return role == "admin" and action == "delete"
+if not is_allowed("viewer", "delete"):
+    print("Blocked and logged")
+```
+ব্যাখ্যা: এখানে অনুমতি যাচাই করে অননুমোদিত action block করার guardrail দেখানো হয়েছে।
+
+Runnable Example Index - Every Entry
+
+Run every command from the project root. A range includes every numbered entry in that range; repeated roadmap topics are intentionally listed again.
+
+1.1-1.2, 1.5, 1.7, 1.10:
+python test/ai_engineer_examples/module_1_ai_fundamentals.py
+
+1.3, 1.6:
+python test/ai_engineer_examples/module_3_transformer.py
+
+1.4, 1.8-1.9:
+python test/ai_engineer_examples/module_2_llm_fundamentals.py
+
+2.1-2.10:
+python test/ai_engineer_examples/module_2_llm_fundamentals.py
+
+3.1-3.10:
+python test/ai_engineer_examples/module_3_transformer.py
+
+4.1-4.10:
+python test/ai_engineer_examples/module_4_prompt_engineering.py
+
+5.1-5.7, 5.9-5.10:
+python test/ai_engineer_examples/module_5_embeddings.py
+
+5.8:
+python test/ai_engineer_examples/module_6_vector_database.py
+
+6.1-6.11.3:
+python test/ai_engineer_examples/module_6_vector_database.py
+
+7.1-7.10:
+python test/ai_engineer_examples/module_7_rag.py
+
+8.1-8.10:
+python test/ai_engineer_examples/module_8_fine_tuning.py
+
+9.1-9.10:
+python test/ai_engineer_examples/module_9_ai_agents.py
+
+10.1-10.10:
+python test/ai_engineer_examples/module_10_production_ai.py
+
+L1.1-L1.2, L1.5:
+python test/ai_engineer_examples/module_1_ai_fundamentals.py
+
+L1.3:
+python test/ai_engineer_examples/module_3_transformer.py
+
+L1.4, L1.6-L1.7, L1.10:
+python test/ai_engineer_examples/module_2_llm_fundamentals.py
+
+L1.8-L1.9:
+python test/ai_engineer_examples/module_4_prompt_engineering.py
+
+L2.1-L2.2:
+python test/ai_engineer_examples/module_3_transformer.py
+
+L2.3-L2.5:
+python test/ai_engineer_examples/module_2_llm_fundamentals.py
+
+L2.6:
+python test/ai_engineer_examples/module_10_production_ai.py
+
+L2.7:
+python test/ai_engineer_examples/module_5_embeddings.py
+
+L2.8:
+python test/ai_engineer_examples/module_8_fine_tuning.py
+
+L2.9:
+python test/ai_engineer_examples/module_7_rag.py
+
+L2.10:
+python test/ai_engineer_examples/module_9_ai_agents.py
+
+L3.1, L3.5:
+python test/ai_engineer_examples/module_4_prompt_engineering.py
+
+L3.2:
+python test/ai_engineer_examples/module_6_vector_database.py
+
+L3.3:
+python test/ai_engineer_examples/module_5_embeddings.py
+
+L3.4:
+python test/ai_engineer_examples/module_7_rag.py
+
+L3.6-L3.10:
+python test/ai_engineer_examples/module_9_ai_agents.py
+
+L4.1, L4.4:
+python test/ai_engineer_examples/module_9_ai_agents.py
+
+L4.2-L4.3:
+python test/ai_engineer_examples/module_8_fine_tuning.py
+
+L4.5, L4.8-L4.10:
+python test/ai_engineer_examples/module_10_production_ai.py
+
+L4.6:
+python test/ai_engineer_examples/module_7_rag.py
+
+L4.7:
+python test/ai_engineer_examples/module_4_prompt_engineering.py
+
+
+
+
